@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #square{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            color: white;
+
+
+            margin: 10px 5px 10px 5px;
+            padding-left: 20px;
+            padding-top: 30px;
+
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            
+        }
+
+        #test{
+           
+            background-color: red;
+
+            
+            /* 1. 왼쪽 위 테두리를 둥글게 */
+            /* border-top-left-radius: 50%; */
+
+            /* 2. 왼쪽 아래 테두리를 둥글게 */
+            /* border-bottom-left-radius: 50%; */
+
+            /* 3. 오른쪽 아래 테두리를 둥글게 */
+            /* border-bottom-right-radius: 50%; */
+
+            /* Q. 빨간 도형을 원으로 만들고자 한다면? */
+            /* border-top-right-radius: 50%; */
+            
+            /* => 한줄로 표현? */
+            /* border-radius: 50%; */
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            }
+
+        #test1{
+            background-color: blue;
+            margin-left: 100px;
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #test2{
+            background-color: green;
+            margin-left: 200px;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #test3{
+            background-color: gray;
+            margin-left: 300px;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="test"></div>
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <div id="test3"></div>
+
+</body>
+</html>
