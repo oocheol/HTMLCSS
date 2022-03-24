@@ -1,0 +1,34 @@
+
+        div{
+            width: 100px;
+            height: 100px;
+            
+        }
+
+        #test{
+           
+            background-color: red;
+
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            }
+
+        #test1{
+            background-color: green;
+            margin-left: 100px;
+
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        #test2{
+            background-color: blue;
+            margin-left: 200px;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        #test3{
+            background-color: gray;
+            margin-left: 300px;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
